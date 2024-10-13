@@ -837,7 +837,7 @@ void getConfigPath(JNIEnv *env, jobject context) {
     const char *path = env->GetStringUTFChars(obj_Path, nullptr);
 
     std::string route(path);
-    configPath = route + "/Perseus.ini";
+    configPath = route + "/Entry.ini";
     skinPath = route + "/Skins.ini";
 
     env->ReleaseStringUTFChars(obj_Path, path);
@@ -953,7 +953,7 @@ void init(JNIEnv *env, jclass clazz, jobject context) {
         crash();
     }
 
-    Toast(env, context, OBFUSCATE("Enjoy the feet, by @Egoistically"),
+    Toast(env, context, OBFUSCATE(""),
           ToastLength::LENGTH_LONG);
 
     pthread_t ptid;
