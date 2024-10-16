@@ -144,14 +144,14 @@ struct Config {
 };
 
 std::vector<std::string> _default{
-        OBFUSCATE("# [*] Delete the file to reset it. Restart the game to apply any changes."),
-        OBFUSCATE("# [*] Options can be one of the following types:"),
-        OBFUSCATE("#      [1] Bool - e.g. \"true\" or \"false\" - Keys: All \"Enabled\"s, ExerciseGodmode, FastStageMovement, RemoveBuffs, RemoveEquipment and RemoveSkill."),
-        OBFUSCATE("#      [2] Whole numbers or false to disable changes - If you need an example you're five - Keys: All the ones not mentioned above."),
-        OBFUSCATE("# [*] \"Enabled\"s apply to the entirety of their section, if they're disabled everything will be."),
-        OBFUSCATE("# [*] If the game crashes, this file is most likely misconfigured."),
+        OBFUSCATE("#"),
+        OBFUSCATE("#"),
+        OBFUSCATE("#"),
+        OBFUSCATE("#"),
+        OBFUSCATE("# [*]"),
+        OBFUSCATE("# [*]"),
         OBFUSCATE(""),
-        OBFUSCATE("original repo: github.com/Egoistically/Perseus."),
+        OBFUSCATE(""),
         OBFUSCATE(""),
         OBFUSCATE("[Aircraft]"),
         OBFUSCATE("Enabled=false"),
