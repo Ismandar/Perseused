@@ -837,7 +837,7 @@ void getConfigPath(JNIEnv *env, jobject context) {
     const char *path = env->GetStringUTFChars(obj_Path, nullptr);
 
     std::string route(path);
-    configPath = route + "/Entry.ini";
+    configPath = route + "/hashes-2d.ini";
     skinPath = route + "/Skins.ini";
 
     env->ReleaseStringUTFChars(obj_Path, path);
